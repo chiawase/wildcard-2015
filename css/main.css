@@ -1,0 +1,130 @@
+ Main CSS for Wildcard 2015 Theme */
+/* Wildcard Blue : #00A99E */
+/* Wildcard Green : #8DC540 */
+
+/* ### START OF MOBILE LAYOUT ### */
+
+body {
+	background-color: #eee;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.navbar-toggle {
+	background-color: #e6e6e6;
+}
+
+.navbar-brand {
+	padding: 5px;
+}
+
+.navbar-brand img {
+	height: 40px;
+}
+
+/* For Featured Articles Slider */
+#featured > li {
+	height: 200px;
+}
+
+#featured > li > img {
+	height: 200px;
+	width: 325px;
+}
+
+#featured .featured-content {
+	margin-top: -200px;
+	padding: 0px 35px;
+	opacity: 1;
+	color: #000;
+	z-index: 6;
+}
+
+#featured .featured-content .title {
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+#featured .featured-content .author {
+	margin: 2.5px 0px 10px;
+}
+
+#featured .featured-content .button {
+	text-align: center;
+}
+
+/* For Article Cards */
+.articles {
+	background-color: #ccc;
+	margin-top: 15px;
+}
+
+.article-card {
+	margin: 15px 0;
+	border: 1px solid #666;
+}
+
+.article-card .article-header > img {
+	margin: 0 auto;
+	width: 305px;
+	border-bottom: #999 5px solid;
+}
+
+.article-card .article-header .title {
+	margin-top: -40px;
+	margin-left: 10px;
+	font-weight: bold;
+}
+
+.article-card .article-body {
+	margin-left: 10px;
+}
+
+.article-card .article-body .author {
+	margin-top: 15px;
+}
+
+.article-card .article-body > p {
+	text-indent: 25px;
+	margin-right: 15px;
+	text-align: justify;
+}
+
+.article-card .article-footer .article-buttons {
+	padding-left: 0;
+	list-style: none;
+}
+
+.article-card .article-footer .article-buttons > li {
+	float: left;
+	width: 50%;
+	height: auto;
+	background-color: #888;
+	border: 1px solid #666;
+	padding: 10px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.article-card .article-footer .article-buttons > li > a > span {
+	font-size: 2em;
+}
+
+.article-card .article-footer .article-buttons > li > a {
+	color: #333;
+}
+
+.article-card .article-footer .article-buttons > li > a:hover {
+	color: #666;
+}
+
+/* For Footer */
+.footer {
+	text-align: center;
+	padding-top: 10px;
+}
