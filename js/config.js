@@ -5,7 +5,7 @@ $(function() {
 		mode: 'slide',
 		loop: true,
 		auto: true,
-		pause: 100,
+		pause: 4000,
 		gallery: true,
 		thumbItem: 3,
 		currentPagerPosition: 'left'

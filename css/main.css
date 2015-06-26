@@ -67,11 +67,24 @@ a:hover {
 .article-card {
 	margin: 15px 0;
 	border: 1px solid #666;
+	position: relative;
+}
+
+.article-card .article-header .article-timestamp {
+	position: absolute;
+	right: 10px;
+	top: 5px;
+	z-index: 2;
+	color: #666;
+}
+
+.article-card .article-header .article-timestamp:hover {
+	color: #333;
 }
 
 .article-card .article-header > img {
 	margin: 0 auto;
-	width: 305px;
+	width: 100%;
 	border-bottom: #999 5px solid;
 }
 
@@ -103,12 +116,15 @@ a:hover {
 .article-card .article-footer .article-buttons > li {
 	float: left;
 	width: 50%;
-	height: auto;
+	border-top: 1px solid #666;
 	background-color: #888;
-	border: 1px solid #666;
 	padding: 10px;
 	text-align: center;
 	vertical-align: middle;
+}
+
+.article-card .article-footer .article-buttons > li:first-child {
+	border-right: 1px solid #666;
 }
 
 .article-card .article-footer .article-buttons > li > a > span {
@@ -127,4 +143,27 @@ a:hover {
 .footer {
 	text-align: center;
 	padding-top: 10px;
+}
+
+/* ### START OF SMALL DEVICES LAYOUT ### */
+@media (min-width: 768px) {
+	.main-header {
+		background-color: red;
+		padding: 10px;
+		width: 100%;
+	}
+
+	.main-header > img {
+		margin: 0 auto;
+	}
+}
+
+/* ### START OF DESKOP LAYOUT ### */
+@media (min-width: 992px) {
+
+}
+
+/* ### START OF LARGE DESKTOP LAYOUT ### */
+@media (min-width: 1200px) {
+
 }

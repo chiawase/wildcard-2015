@@ -15,45 +15,46 @@
 <body>
 	<div class="container">
 		<div class="row">
+			<header class="hidden-xs-block main-header">
+				<img src="img/wildcard-header.png">
+			</header>
 			<nav class="navbar navbar-default">
-			  <div class="container-fluid">
-			    <!-- Brand and toggle get grouped for better mobile display -->
-			    <div class="navbar-header">
-			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#wildcard-nav" aria-expanded="false">
-			        <span class="sr-only">Toggle navigation</span>
-			        <span class="icon-bar" aria-hidden="true"></span>
-			        <span class="icon-bar" aria-hidden="true"></span>
-			        <span class="icon-bar" aria-hidden="true"></span>
-			      </button>
-			      <a class="navbar-brand" href="#">
-			      	<!-- <img alt="Brand" src="img/wildcard-favicon.png"> -->
-			      	<img alt="Brand" src="img/wildcard-header.png">
-			      </a>
-			    </div><!-- /.navbar-header -->
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#wildcard-nav" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar" aria-hidden="true"></span>
+		        <span class="icon-bar" aria-hidden="true"></span>
+		        <span class="icon-bar" aria-hidden="true"></span>
+		      </button>
+		      <a class="navbar-brand" href="#">
+		      	<!-- <img alt="Brand" src="img/wildcard-favicon.png"> -->
+		      	<img alt="Brand" src="img/wildcard-header.png">
+		      </a>
+		    </div><!-- /.navbar-header -->
 
-			    <!-- Collect the nav links, forms, and other content for toggling -->
-			    <div class="collapse navbar-collapse" id="wildcard-nav">
-			      <ul class="nav navbar-nav">
-			        <li class="dropdown">
-			        	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CompSAt <span class="caret" aria-hidden="true"></span></a>
-				          <ul class="dropdown-menu">
-				            <li><a href="#">Select*</a></li>
-				            <li><a href="#">Events</a></li>
-				          </ul>
-			        </li>
-			        <li><a href="#">Information Technology</a></li>
-			        <li class="dropdown">
-			        	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Creative <span class="caret" aria-hidden="true"></span></a>
-			        	<ul class="dropdown-menu">
-			        		<li><a href="#">Movies</a></li>
-			        		<li><a href="#">Books</a></li>
-			        		<li><a href="#">Video Games</a></li>
-			        		<li><a href="#">I.T. Out</a></li>
-			        	</ul>
-			        </li>
-			      </ul>
-			    </div><!-- /.navbar-collapse -->
-			  </div><!-- /.container-fluid -->
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="wildcard-nav">
+		      <ul class="nav navbar-nav">
+		        <li class="dropdown">
+		        	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CompSAt <span class="caret" aria-hidden="true"></span></a>
+			          <ul class="dropdown-menu">
+			            <li><a href="#">Select*</a></li>
+			            <li><a href="#">Events</a></li>
+			          </ul>
+		        </li>
+		        <li><a href="#">Information Technology</a></li>
+		        <li class="dropdown">
+		        	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Creative <span class="caret" aria-hidden="true"></span></a>
+		        	<ul class="dropdown-menu">
+		        		<li><a href="#">Movies</a></li>
+		        		<li><a href="#">Books</a></li>
+		        		<li><a href="#">Video Games</a></li>
+		        		<li><a href="#">I.T. Out</a></li>
+		        	</ul>
+		        </li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
 			</nav>
 		</div><!-- /.row -->
 
@@ -97,6 +98,7 @@
 				<div class="col-xs-12">
 					<div class="article-card">
 						<div class="article-header">
+							<a href="#" class="article-timestamp">26 June 2015, 4:41 PM</a>
 							<img src="img/test-main-03.jpg">
 							<h2 class="title"><a href="#">Article Title</a></h2>
 						</div><!-- /.article-header -->
@@ -124,6 +126,7 @@
 
 					<div class="article-card">
 						<div class="article-header">
+							<a href="#" class="article-timestamp">26 June 2015, 4:00 PM</a>
 							<img src="img/test-main-02.jpg">
 							<h2 class="title"><a href="#">Article Title</a></h2>
 						</div><!-- /.article-header -->
@@ -151,6 +154,7 @@
 
 					<div class="article-card">
 						<div class="article-header">
+							<a href="#" class="article-timestamp">26 June 2015, 3:25 PM</a>
 							<img src="img/test-main-01.jpg">
 							<h2 class="title"><a href="#">Article Title</a></h2>
 						</div><!-- /.article-header -->
