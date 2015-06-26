@@ -27,7 +27,7 @@
 		        <span class="icon-bar" aria-hidden="true"></span>
 		        <span class="icon-bar" aria-hidden="true"></span>
 		      </button>
-		      <a class="navbar-brand" href="#">
+		      <a class="navbar-brand visible-xs-block" href="#">
 		      	<!-- <img alt="Brand" src="img/wildcard-favicon.png"> -->
 		      	<img alt="Brand" src="img/wildcard-header.png">
 		      </a>
@@ -54,6 +54,12 @@
 		        	</ul>
 		        </li>
 		      </ul>
+		      <form class="navbar-form navbar-right" role="search">
+		      	<div class="form-group">
+		      		<input type="text" class="form-control" placeholder="Search">
+		      	</div>
+		      	<button type="submit" class="btn btn-default">Submit</button>
+		      </form>
 		    </div><!-- /.navbar-collapse -->
 			</nav>
 		</div><!-- /.row -->
