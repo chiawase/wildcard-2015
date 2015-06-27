@@ -4,7 +4,7 @@
 
 /* ### START OF MOBILE LAYOUT ### */
 
-body {
+html, body {
 	background-color: #eee;
 	width: 100%;
 	overflow-x: hidden;
@@ -29,12 +29,12 @@ a:hover {
 
 /* For Featured Articles Slider */
 #featured > li {
-	height: 200px;
+	height: auto;
 }
 
 #featured > li > img {
-	height: 200px;
-	width: 325px;
+	width: 100%;
+	height: auto;
 }
 
 #featured .featured-content {
@@ -148,22 +148,41 @@ a:hover {
 /* ### START OF SMALL DEVICES LAYOUT ### */
 @media (min-width: 768px) {
 	.main-header {
-		background-color: red;
 		padding: 10px;
 		width: 100%;
 	}
 
 	.main-header > img {
-		margin: 0 auto;
+		margin: 10px 15%;
+		width: 500px;
+	}
+
+	#featured > li {
+		height: 250px;
+		position: relative;
+	}
+
+	#featured > li > img {
+		height: auto;
+	}
+
+	#featured .featured-content {
+		position: absolute;
+		margin: 15px;
+		bottom: 30px;
 	}
 }
 
 /* ### START OF DESKOP LAYOUT ### */
 @media (min-width: 992px) {
-
+	.main-header {
+		background-color: green;
+	}
 }
 
 /* ### START OF LARGE DESKTOP LAYOUT ### */
 @media (min-width: 1200px) {
-
+	.main-header {
+		background-color: blue;
+	}
 }

@@ -15,7 +15,7 @@
 <body>
 	<div class="container">
 		<div class="row">
-			<header class="hidden-xs-block main-header">
+			<header class="hidden-xs main-header">
 				<img src="img/wildcard-header.png">
 			</header>
 			<nav class="navbar navbar-default">
@@ -27,7 +27,7 @@
 		        <span class="icon-bar" aria-hidden="true"></span>
 		        <span class="icon-bar" aria-hidden="true"></span>
 		      </button>
-		      <a class="navbar-brand" href="#">
+		      <a class="navbar-brand visible-xs-block" href="#">
 		      	<!-- <img alt="Brand" src="img/wildcard-favicon.png"> -->
 		      	<img alt="Brand" src="img/wildcard-header.png">
 		      </a>
@@ -54,6 +54,16 @@
 		        	</ul>
 		        </li>
 		      </ul>
+		      <div class="navbar-form navbar-right" role="search">
+		      	<div class="input-group">
+		      		<input type="text" class="form-control" placeholder="Search">
+			      	<span class="input-group-btn">
+				      	<button type="submit" class="btn btn-default">
+				      		<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+				      	</button>
+			      	</span>
+		      	</div><!-- /.input-group -->
+		      </div><!-- /.navbar-form -->
 		    </div><!-- /.navbar-collapse -->
 			</nav>
 		</div><!-- /.row -->
