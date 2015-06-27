@@ -75,7 +75,7 @@
 						<li data-thumb="img/thumbs/test-main-01.jpg">
 							<img src="img/test-main-01.jpg">
 							<div class="featured-content">
-								<h2 class="title">Article Title</h2>
+								<h2 class="title">Article Title #1</h2>
 								<h5 class="author">by Author Name</h5>
 								<p>This is a short excerpt of the featured article. This should be a maximum of two lines/sentences only.</p>
 								<p class="button"><a class="btn btn-info btn-sm" role="button" href="#">Read More</a></p>
@@ -84,7 +84,7 @@
 						<li data-thumb="img/thumbs/test-main-02.jpg">
 							<img src="img/test-main-02.jpg">
 							<div class="featured-content">
-								<h2 class="title">Article Title</h2>
+								<h2 class="title">Article Title #2</h2>
 								<h5 class="author">by Author Name</h5>
 								<p>This is a short excerpt of the featured article. This should be a maximum of two lines/sentences only.</p>
 								<p class="button"><a class="btn btn-info btn-sm" role="button" href="#">Read More</a></p>
@@ -93,7 +93,7 @@
 						<li data-thumb="img/thumbs/test-main-03.jpg">
 							<img src="img/test-main-03.jpg">
 							<div class="featured-content">
-								<h2 class="title">Article Title</h2>
+								<h2 class="title">Article Title #3</h2>
 								<h5 class="author">by Author Name, Another Name</h5>
 								<p>This is a short excerpt of the featured article. This should be a maximum of two lines/sentences only.</p>
 								<p class="button"><a class="btn btn-info btn-sm" role="button" href="#">Read More</a></p>
@@ -105,12 +105,12 @@
 
 			<!-- start of Article Cards -->
 			<div class="row articles">
-				<div class="col-xs-12">
+				<div class="col-xs-12 col-sm-8">
 					<div class="article-card">
 						<div class="article-header">
 							<a href="#" class="article-timestamp">26 June 2015, 4:41 PM</a>
 							<img src="img/test-main-03.jpg">
-							<h2 class="title"><a href="#">Article Title</a></h2>
+							<h2 class="title"><a href="#">Article Title #3</a></h2>
 						</div><!-- /.article-header -->
 						<div class="article-body">
 							<h5 class="author">By Author Name, Another Name</h5>
@@ -138,7 +138,7 @@
 						<div class="article-header">
 							<a href="#" class="article-timestamp">26 June 2015, 4:00 PM</a>
 							<img src="img/test-main-02.jpg">
-							<h2 class="title"><a href="#">Article Title</a></h2>
+							<h2 class="title"><a href="#">Article Title #2</a></h2>
 						</div><!-- /.article-header -->
 						<div class="article-body">
 							<h5 class="author">By Author Name</h5>
@@ -166,7 +166,7 @@
 						<div class="article-header">
 							<a href="#" class="article-timestamp">26 June 2015, 3:25 PM</a>
 							<img src="img/test-main-01.jpg">
-							<h2 class="title"><a href="#">Article Title</a></h2>
+							<h2 class="title"><a href="#">Article Title #1</a></h2>
 						</div><!-- /.article-header -->
 						<div class="article-body">
 							<h5 class="author">By Author Name</h5>
@@ -189,9 +189,30 @@
 						</div><!-- /.article-footer -->
 						<div class="clearfix"></div>
 					</div><!-- /.article-card -->
-
 				</div><!-- /.cols -->
-			</div><!-- /.row -->
+				<div class="hidden-xs col-sm-4">
+					<div class="sidebar">
+						<h4 class="header">Popular Articles</h4>
+						<div class="article-preview">
+							<img src="img/thumbs/test-main-02.jpg">
+							<h3><a href="#"><strong>Article Title #2</strong></a></h3>
+							<h5><em>22 hours ago</em></h5>
+						</div><!-- /.article-preview -->
+						<div class="article-divider"></div>
+						<div class="article-preview">
+							<img src="img/thumbs/test-main-03.jpg">
+							<h3><a href="#"><strong>Article Title #3</strong></a></h3>
+							<h5><em>About a day ago</em></h5>
+						</div><!-- /.article-preview -->
+						<div class="article-divider"></div>
+						<div class="article-preview">
+							<img src="img/thumbs/test-main-01.jpg">
+							<h3><a href="#"><strong>Article Title #1</strong></a></h3>
+							<h5><em>Two days ago</em></h5>
+						</div><!-- /.article-preview -->
+					</div><!-- /.sidebar -->
+				</div><!-- /.cols -->
+			</div><!-- /.row .articles -->
 		</div><!-- /.content -->
 
 		<footer class="footer">

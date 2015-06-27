@@ -65,7 +65,7 @@ a:hover {
 }
 
 .article-card {
-	margin: 15px 0;
+	margin: 15px 0px;
 	border: 1px solid #666;
 	position: relative;
 }
@@ -157,6 +157,7 @@ a:hover {
 		width: 500px;
 	}
 
+	/* For Featured Articles Slider */
 	#featured > li {
 		height: 250px;
 		position: relative;
@@ -170,6 +171,53 @@ a:hover {
 		position: absolute;
 		margin: 15px;
 		bottom: 30px;
+	}
+
+	.articles {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	/* For Sidebar */
+	.sidebar {
+		margin-top: 15px;
+		padding: 10px;
+		border: 1px solid #000;
+	}
+
+	.sidebar .header {
+		text-align: center;
+		font-weight: bold;
+		margin-top: 5px;
+	}
+
+	.sidebar .article-preview {
+		margin-top: 15px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+
+	.sidebar .article-divider {
+		border-bottom: 1px solid #666;
+	}
+
+	.sidebar .article-preview > img {
+		width: 50%;
+		height: auto;
+		margin-right: 10px;
+	}
+
+	.sidebar .article-preview > h3 {
+		margin-top: 5px;
+		flex-grow: 1;
+		flex-basis: 0;
+	}
+
+	.sidebar .article-preview > h5 {
+		flex-grow: 2;
+		margin-top: 5px;
 	}
 }
 
