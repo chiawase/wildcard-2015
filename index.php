@@ -191,7 +191,7 @@
 					</div><!-- /.article-card -->
 				</div><!-- /.cols -->
 				<div class="hidden-xs col-sm-4">
-					<div class="sidebar">
+					<div class="sidebar" id="popular-articles">
 						<h4 class="header">Popular Articles</h4>
 						<div class="article-preview">
 							<img src="img/thumbs/test-main-02.jpg">
@@ -210,6 +210,15 @@
 							<h3><a href="#"><strong>Article Title #1</strong></a></h3>
 							<h5><em>Two days ago</em></h5>
 						</div><!-- /.article-preview -->
+					</div><!-- /.sidebar -->
+					<div class="sidebar" id="social-media">
+						<h4 class="header">Connect with CompSAt</h4>
+						<div class="links">
+							<a href="#"><div id="facebook" class="placeholder img-circle"></div></a>
+							<a href="#"><div id="twitter" class="placeholder img-circle"></div></a>
+							<a href="#"><div id="instagram" class="placeholder img-circle"></div></a>
+							<a href="#"><div id="askfm" class="placeholder img-circle"></div></a>
+						</div>
 					</div><!-- /.sidebar -->
 				</div><!-- /.cols -->
 			</div><!-- /.row .articles -->

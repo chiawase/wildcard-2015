@@ -191,7 +191,11 @@ a:hover {
 		margin-top: 5px;
 	}
 
-	.sidebar .article-preview {
+	.sidebar .article-divider {
+		border-bottom: 1px solid #666;
+	}
+
+	#popular-articles .article-preview {
 		margin-top: 15px;
 		display: flex;
 		flex-wrap: wrap;
@@ -199,25 +203,56 @@ a:hover {
 		align-items: flex-start;
 	}
 
-	.sidebar .article-divider {
-		border-bottom: 1px solid #666;
-	}
-
-	.sidebar .article-preview > img {
+	#popular-articles .article-preview > img {
 		width: 50%;
 		height: auto;
 		margin-right: 10px;
 	}
 
-	.sidebar .article-preview > h3 {
+	#popular-articles .article-preview > h3 {
 		margin-top: 5px;
 		flex-grow: 1;
 		flex-basis: 0;
 	}
 
-	.sidebar .article-preview > h5 {
+	#popular-articles .article-preview > h5 {
 		flex-grow: 2;
 		margin-top: 5px;
+	}
+
+	/* ---- REMOVE WHEN NOT IN DEVELOPMENT ANYMORE ---- */
+	.sidebar .placeholder {
+		width: 60px;
+		height: 60px;
+	}
+
+	#facebook {
+		background-color: blue;
+	}
+
+	#twitter {
+		background-color: cyan;
+	}
+
+	#instagram {
+		background-color: brown;
+	}
+
+	#askfm {
+		background-color: darkblue;
+	}
+	/* ----- UP UNTIL HERE --------- */
+
+	#social-media .links {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	/* change to img when placeholders are not applicable anymore */
+	#social-media .placeholder {
+		margin: 5px;
 	}
 }
 
