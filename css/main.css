@@ -4,7 +4,7 @@
 
 /* ### START OF MOBILE LAYOUT ### */
 
-body {
+html, body {
 	background-color: #eee;
 	width: 100%;
 	overflow-x: hidden;
@@ -29,12 +29,12 @@ a:hover {
 
 /* For Featured Articles Slider */
 #featured > li {
-	height: 200px;
+	height: auto;
 }
 
 #featured > li > img {
-	height: 200px;
-	width: 325px;
+	width: 100%;
+	height: auto;
 }
 
 #featured .featured-content {
@@ -65,7 +65,7 @@ a:hover {
 }
 
 .article-card {
-	margin: 15px 0;
+	margin: 15px 0px;
 	border: 1px solid #666;
 	position: relative;
 }
@@ -157,15 +157,117 @@ a:hover {
 		width: 500px;
 	}
 
+	/* For Featured Articles Slider */
+	#featured > li {
+		height: 250px;
+		position: relative;
+	}
+
+	#featured > li > img {
+		height: auto;
+	}
+
+	#featured .featured-content {
+		position: absolute;
+		margin: 15px;
+		bottom: 30px;
+	}
+
+	.articles {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	/* For Sidebar */
+	.sidebar {
+		margin-top: 15px;
+		padding: 10px;
+		border: 1px solid #000;
+	}
+
+	.sidebar .header {
+		text-align: center;
+		font-weight: bold;
+		margin-top: 5px;
+	}
+
+	.sidebar .article-divider {
+		border-bottom: 1px solid #666;
+	}
+
+	#popular-articles .article-preview {
+		margin-top: 15px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+
+	#popular-articles .article-preview > img {
+		width: 50%;
+		height: auto;
+		margin-right: 10px;
+	}
+
+	#popular-articles .article-preview > h3 {
+		margin-top: 5px;
+		flex-grow: 1;
+		flex-basis: 0;
+	}
+
+	#popular-articles .article-preview > h5 {
+		flex-grow: 2;
+		margin-top: 5px;
+	}
+
+	/* ---- REMOVE WHEN NOT IN DEVELOPMENT ANYMORE ---- */
+	.sidebar .placeholder {
+		width: 60px;
+		height: 60px;
+	}
+
+	#facebook {
+		background-color: blue;
+	}
+
+	#twitter {
+		background-color: cyan;
+	}
+
+	#instagram {
+		background-color: brown;
+	}
+
+	#askfm {
+		background-color: darkblue;
+	}
+	/* ----- UP UNTIL HERE --------- */
+
+	#social-media .links {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	/* change to img when placeholders are not applicable anymore */
+	#social-media .placeholder {
+		margin: 5px;
+	}
+
 	
 }
 
 /* ### START OF DESKOP LAYOUT ### */
 @media (min-width: 992px) {
-
+	.main-header {
+		background-color: green;
+	}
 }
 
 /* ### START OF LARGE DESKTOP LAYOUT ### */
 @media (min-width: 1200px) {
-
+	.main-header {
+		background-color: blue;
+	}
 }
