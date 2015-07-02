@@ -55,7 +55,7 @@
 		        </li>
 		      </ul>
 
-		      <div class="navbar-form navbar-right" role="search">
+		      <div class="navbar-form navbar-right hidden-xs" role="search">
 		      	<div class="input-group">
 		      		<input type="text" class="form-control" placeholder="Search">
 			      	<span class="input-group-btn">
