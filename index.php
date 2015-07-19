@@ -55,7 +55,7 @@
 		        </li>
 		      </ul>
 
-		      <div class="navbar-form navbar-right hidden-xs" role="search">
+		      <div class="navbar-form navbar-right" role="search">
 		      	<div class="input-group">
 		      		<input type="text" class="form-control" placeholder="Search">
 			      	<span class="input-group-btn">
@@ -72,7 +72,80 @@
 		<div class="content">
 			<div class="row">
 				<div class="col-xs-12">
-					<ul id="featured">
+					<div class="featured">
+						<div class="btn-group">
+							<a href="#" type="button" class="btn btn-default btn-lg">Featured</a>
+							<button type="button" class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+								<span class="sr-only">Toggle Dropdown</span>
+							</button>
+							<ul class="dropdown-menu">
+								<li><a href="#latest">Latest</a></li>
+							</ul>
+						</div>
+
+						<div class="article-card">
+							<div class="article-header">
+								<a href="#" class="article-timestamp">26 June 2015, 4:41 PM</a>
+								<img src="img/test-main-01.jpg">
+								<h2 class="title"><a href="#">Featured Article</a></h2>
+							</div><!-- /.article-header -->
+							<div class="article-body">
+								<h5 class="author">By Author Name, Another Name</h5>
+								<p>
+									This is just a preview of what is in the article. It may contain the excerpt from the actual article.
+								</p>
+								<p>
+									It may also contain another paragraph, to give users a taste of what is in the article. I am just blabbering right now.
+								</p>
+							</div><!-- /.article-body -->
+							<div class="article-footer">
+								<div class="article-tags pull-left">
+									<button type="button" class="btn btn-info article-tag">I.T.</button>
+								</div>
+								<button type="button" class="btn btn-link pull-right">Read More &raquo;</button>
+							</div><!-- /.article-footer -->
+							<div class="clearfix"></div>
+						</div><!-- /.article-card -->
+					</div>
+
+					<div class="latest">
+						<div class="btn-group">
+							<a href="#" type="button" class="btn btn-default btn-lg">Latest</a>
+							<button type="button" class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="caret"></span>
+								<span class="sr-only">Toggle Dropdown</span>
+							</button>
+							<ul class="dropdown-menu">
+								<li><a href="#featured">Featured</a></li>
+							</ul>
+						</div>
+
+						<div class="article-card">
+							<div class="article-header">
+								<a href="#" class="article-timestamp">now</a>
+								<img src="img/test-main-03.jpg">
+								<h2 class="title"><a href="#">Latest Article</a></h2>
+							</div><!-- /.article-header -->
+							<div class="article-body">
+								<h5 class="author">By Author Name, Another Name</h5>
+								<p>
+									This is just a preview of what is in the article. It may contain the excerpt from the actual article.
+								</p>
+								<p>
+									It may also contain another paragraph, to give users a taste of what is in the article. I am just blabbering right now.
+								</p>
+							</div><!-- /.article-body -->
+							<div class="article-footer">
+								<div class="article-tags pull-left">
+									<button type="button" class="btn btn-primary article-tag">CompSAt</button>
+								</div>
+								<button type="button" class="btn btn-link pull-right">Read More &raquo;</button>
+							</div><!-- /.article-footer -->
+							<div class="clearfix"></div>
+						</div><!-- /.article-card -->
+					</div>
+					<!-- <ul id="featured">
 						<li data-thumb="img/thumbs/test-main-01.jpg">
 							<img src="img/test-main-01.jpg">
 							<div class="featured-content">
@@ -100,7 +173,7 @@
 								<p class="button"><a class="btn btn-info btn-sm" role="button" href="#">Read More</a></p>
 							</div>
 						</li>
-					</ul>
+					</ul> -->
 				</div><!-- /.cols -->
 			</div><!-- /.row -->
 
@@ -123,15 +196,11 @@
 							</p>
 						</div><!-- /.article-body -->
 						<div class="article-footer">
-							<ul class="article-buttons">
-								<li class="share">
-									<a href="#"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span></a>
-								</li>
-								<li class="read-more">
-									<a href="#"><span style="font-weight: bold; font-size: 1.65em;">Read More</span></a>
-								</li>
-							</ul>
-						</div><!-- /.article-footer -->
+								<div class="article-tags pull-left">
+									<button type="button" class="btn btn-primary article-tag">CompSAt</button>
+								</div>
+								<button type="button" class="btn btn-link pull-right">Read More &raquo;</button>
+							</div><!-- /.article-footer -->
 						<div class="clearfix"></div>
 					</div><!-- /.article-card -->
 
@@ -151,15 +220,11 @@
 							</p>
 						</div><!-- /.article-body -->
 						<div class="article-footer">
-							<ul class="article-buttons">
-								<li class="share">
-									<a href="#"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span></a>
-								</li>
-								<li class="read-more">
-									<a href="#"><span style="font-weight: bold; font-size: 1.65em;">Read More</span></a>
-								</li>
-							</ul>
-						</div><!-- /.article-footer -->
+								<div class="article-tags pull-left">
+									<button type="button" class="btn btn-primary article-tag">CompSAt</button>
+								</div>
+								<button type="button" class="btn btn-link pull-right">Read More &raquo;</button>
+							</div><!-- /.article-footer -->
 						<div class="clearfix"></div>
 					</div><!-- /.article-card -->
 
@@ -179,15 +244,11 @@
 							</p>
 						</div><!-- /.article-body -->
 						<div class="article-footer">
-							<ul class="article-buttons">
-								<li class="share">
-									<a href="#"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span></a>
-								</li>
-								<li class="read-more">
-									<a href="#"><span style="font-weight: bold; font-size: 1.65em;">Read More</span></a>
-								</li>
-							</ul>
-						</div><!-- /.article-footer -->
+								<div class="article-tags pull-left">
+									<button type="button" class="btn btn-primary article-tag">CompSAt</button>
+								</div>
+								<button type="button" class="btn btn-link pull-right">Read More &raquo;</button>
+							</div><!-- /.article-footer -->
 						<div class="clearfix"></div>
 					</div><!-- /.article-card -->
 				</div><!-- /.cols -->

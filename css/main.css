@@ -4,8 +4,8 @@
 
 /* ### START OF MOBILE LAYOUT ### */
 
-html, body {
-	background-color: #eee;
+body {
+	background-color: #ddd;
 	width: 100%;
 	overflow-x: hidden;
 	overflow-y: auto;
@@ -15,8 +15,17 @@ a:hover {
 	text-decoration: none;
 }
 
-.navbar-toggle {
-	background-color: #e6e6e6;
+.show {
+	display: block;
+}
+
+.hide {
+	display: none;
+}
+
+.navbar-toggle, .navbar-toggle:hover {
+	background-color: none;
+	border: none;
 }
 
 .navbar-brand {
@@ -27,35 +36,22 @@ a:hover {
 	height: 40px;
 }
 
-/* For Featured Articles Slider */
-#featured > li {
-	height: auto;
+/* For Featured/Latest Article (mobile) */
+.featured .article-card, .latest .article-card {
+	border: 1px solid #bbb;
 }
 
-#featured > li > img {
-	width: 100%;
-	height: auto;
+.featured {
+	display: inline-block;
 }
 
-#featured .featured-content {
-	margin-top: -200px;
-	padding: 0px 35px;
-	opacity: 1;
-	color: #000;
-	z-index: 6;
+.latest {
+	display: none;
 }
 
-#featured .featured-content .title {
-	font-weight: bold;
-	margin-bottom: 0px;
-}
-
-#featured .featured-content .author {
-	margin: 2.5px 0px 10px;
-}
-
-#featured .featured-content .button {
-	text-align: center;
+.article-tags {
+	margin: 10px;
+	margin-top: 0px;
 }
 
 /* For Article Cards */
@@ -66,8 +62,9 @@ a:hover {
 
 .article-card {
 	margin: 15px 0px;
-	border: 1px solid #666;
+	/*border: 1px solid #111;*/
 	position: relative;
+	background-color: #fff;
 }
 
 .article-card .article-header .article-timestamp {
@@ -85,21 +82,22 @@ a:hover {
 .article-card .article-header > img {
 	margin: 0 auto;
 	width: 100%;
-	border-bottom: #999 5px solid;
 }
 
 .article-card .article-header .title {
-	margin-top: -40px;
+	margin-top: -45px;
 	margin-left: 10px;
 	font-weight: bold;
 }
 
 .article-card .article-body {
-	margin-left: 10px;
+	padding: 2.5px 10px;
+	background-color: #eee;
 }
 
 .article-card .article-body .author {
-	margin-top: 15px;
+	margin-top: 5px;
+	color: #666;
 }
 
 .article-card .article-body > p {
@@ -108,35 +106,8 @@ a:hover {
 	text-align: justify;
 }
 
-.article-card .article-footer .article-buttons {
-	padding-left: 0;
-	list-style: none;
-}
-
-.article-card .article-footer .article-buttons > li {
-	float: left;
-	width: 50%;
-	border-top: 1px solid #666;
-	background-color: #888;
-	padding: 10px;
-	text-align: center;
-	vertical-align: middle;
-}
-
-.article-card .article-footer .article-buttons > li:first-child {
-	border-right: 1px solid #666;
-}
-
-.article-card .article-footer .article-buttons > li > a > span {
-	font-size: 2em;
-}
-
-.article-card .article-footer .article-buttons > li > a {
-	color: #333;
-}
-
-.article-card .article-footer .article-buttons > li > a:hover {
-	color: #666;
+.article-footer {
+	padding: 10px 0px;
 }
 
 /* For Footer */
@@ -164,6 +135,7 @@ a:hover {
 	}
 
 	#featured > li > img {
+		width: 100%;
 		height: auto;
 	}
 
@@ -171,11 +143,28 @@ a:hover {
 		position: absolute;
 		margin: 15px;
 		bottom: 30px;
+		padding: 0px 35px;
+		opacity: 1;
+		color: #000;
+		z-index: 6;
 	}
 
 	.articles {
 		margin-left: 0px;
 		margin-right: 0px;
+	}
+
+	#featured .featured-content .title {
+		font-weight: bold;
+		margin-bottom: 0px;
+	}
+
+	#featured .featured-content .author {
+		margin: 2.5px 0px 10px;
+	}
+
+	#featured .featured-content .button {
+		text-align: center;
 	}
 
 	/* For Sidebar */
