@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-		<title>Latest Articles | Wildcard</title>
+		<title>Searching for "Search Query" | Wildcard</title>
 		<!-- CSS -->
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
@@ -72,7 +72,8 @@
 			<div class="content">
 				<div class="row">
 					<div class="col-xs-12">
-						<h1 class="title">Latest Articles</h1>
+						<h1 class="title">Search</h1>
+						<h3 class="query">Test Search</h3>
 
 						<div class="article-card">
 							<div class="article-header">
@@ -99,7 +100,7 @@
 						</div><!-- /.article-card -->
 
 					</div><!-- /.cols -->
-				</div><!-- /.row .articles -->
+				</div><!-- /.row -->
 			</div><!-- /.content -->
 
 		</div><!-- /.container -->

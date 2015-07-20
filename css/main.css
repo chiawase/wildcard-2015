@@ -84,11 +84,12 @@ a:hover {
 /* For Divider */
 .divider {
 	text-align: center;
+	margin: 10px 0px;
 }
 
 /* For Article Cards */
 .article-card {
-	margin: 20px 0px;
+	margin: 25px 0px;
 	/*border: 1px solid #111;*/
 	position: relative;
 	/*background-color: #fff;*/
@@ -147,6 +148,7 @@ a:hover {
 .footer {
 	text-align: center;
 	background-color: #fff;
+	margin-top: 10px;
 	padding: 10px 0px 0px;
 	display: flex;
 	justify-content: center;

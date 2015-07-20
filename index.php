@@ -60,9 +60,10 @@
 			      	<div class="input-group">
 			      		<input type="text" class="form-control" placeholder="Search">
 				      	<span class="input-group-btn">
-					      	<button type="submit" class="btn btn-default">
+				      		<!-- Link for now until Search function is implemented -->
+					      	<a href="search.php" type="submit" class="btn btn-default">
 					      		<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-					      	</button>
+					      	</a>
 				      	</span>
 			      	</div><!-- /.input-group -->
 			      </div><!-- /.navbar-form -->
