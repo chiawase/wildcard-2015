@@ -90,7 +90,7 @@
 								<div class="article-header">
 									<a href="#" class="article-timestamp">26 June 2015, 4:41 PM</a>
 									<img src="img/test-main-01.jpg">
-									<h2 class="title"><a href="#">Featured Article</a></h2>
+									<h2 class="title"><a href="article.php">Featured Article</a></h2>
 								</div><!-- /.article-header -->
 								<div class="article-body">
 									<h5 class="author">By Author Name, Another Name</h5>
