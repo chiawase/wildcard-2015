@@ -1,22 +1,62 @@
- Main CSS for Wildcard 2015 Theme */
+/*Main CSS for Wildcard 2015 Theme */
 /* Wildcard Blue : #00A99E */
-/* Wildcard Green : #8DC540 */
+/* Wildcard Green : #8DC540, #04A89D */
+
+@import url(http://fonts.googleapis.com/css?family=Asap:400,700);
 
 /* ### START OF MOBILE LAYOUT ### */
+* {
+	margin: 0;
+	padding: 0;
+}
 
 body {
-	background-color: #eee;
 	width: 100%;
 	overflow-x: hidden;
 	overflow-y: auto;
+	background-color: #ddd;
+	font-family: Arial, sans-serif;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6, .nav {
+	font-family: 'Asap', Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0px;
+	font-weight: 700;
+}
+
+.nav {
+	font-weight: 400;
+}
+
+.container {
+	flex: 1;
+}
+
+a {
+	color: #04A89D;
 }
 
 a:hover {
 	text-decoration: none;
 }
 
-.navbar-toggle {
-	background-color: #e6e6e6;
+.show {
+	display: block;
+}
+
+.hide {
+	display: none;
+}
+
+.navbar-toggle, .navbar-toggle:hover {
+	background-color: none;
+	border: none;
 }
 
 .navbar-brand {
@@ -27,47 +67,34 @@ a:hover {
 	height: 40px;
 }
 
-/* For Featured Articles Slider */
-#featured > li {
-	height: 200px;
+/* For Featured/Latest Article (mobile) */
+.featured {
+	display: inline-block;
 }
 
-#featured > li > img {
-	height: 200px;
-	width: 325px;
+.latest {
+	display: none;
 }
 
-#featured .featured-content {
-	margin-top: -200px;
-	padding: 0px 35px;
-	opacity: 1;
-	color: #000;
-	z-index: 6;
+.article-tags {
+	margin: 10px;
+	margin-top: 0px;
 }
 
-#featured .featured-content .title {
-	font-weight: bold;
-	margin-bottom: 0px;
-}
-
-#featured .featured-content .author {
-	margin: 2.5px 0px 10px;
-}
-
-#featured .featured-content .button {
+/* For Divider */
+.divider {
 	text-align: center;
 }
 
 /* For Article Cards */
-.articles {
-	background-color: #ccc;
-	margin-top: 15px;
-}
-
 .article-card {
-	margin: 15px 0;
-	border: 1px solid #666;
+	margin: 20px 0px;
+	/*border: 1px solid #111;*/
 	position: relative;
+	/*background-color: #fff;*/
+	background-image: url("../img/bg.png");
+	box-shadow: 0px 5px 2.5px #aaa;
+	border-radius: 10px;
 }
 
 .article-card .article-header .article-timestamp {
@@ -85,21 +112,25 @@ a:hover {
 .article-card .article-header > img {
 	margin: 0 auto;
 	width: 100%;
-	border-bottom: #999 5px solid;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
 
 .article-card .article-header .title {
-	margin-top: -40px;
+	margin-top: -45px;
 	margin-left: 10px;
 	font-weight: bold;
+	text-shadow: 0px 2.5px 0px #eee;
 }
 
 .article-card .article-body {
-	margin-left: 10px;
+	padding: 2.5px 10px;
+	background-color: #bbb;
 }
 
 .article-card .article-body .author {
-	margin-top: 15px;
+	margin-top: 5px;
+	color: #666;
 }
 
 .article-card .article-body > p {
@@ -108,41 +139,18 @@ a:hover {
 	text-align: justify;
 }
 
-.article-card .article-footer .article-buttons {
-	padding-left: 0;
-	list-style: none;
-}
-
-.article-card .article-footer .article-buttons > li {
-	float: left;
-	width: 50%;
-	border-top: 1px solid #666;
-	background-color: #888;
-	padding: 10px;
-	text-align: center;
-	vertical-align: middle;
-}
-
-.article-card .article-footer .article-buttons > li:first-child {
-	border-right: 1px solid #666;
-}
-
-.article-card .article-footer .article-buttons > li > a > span {
-	font-size: 2em;
-}
-
-.article-card .article-footer .article-buttons > li > a {
-	color: #333;
-}
-
-.article-card .article-footer .article-buttons > li > a:hover {
-	color: #666;
+.article-footer {
+	padding: 10px 0px;
 }
 
 /* For Footer */
 .footer {
 	text-align: center;
-	padding-top: 10px;
+	background-color: #fff;
+	padding: 10px 0px 0px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 }
 
 /* ### START OF SMALL DEVICES LAYOUT ### */
@@ -157,15 +165,135 @@ a:hover {
 		width: 500px;
 	}
 
+	/* For Featured Articles Slider */
+	#featured > li {
+		height: 250px;
+		position: relative;
+	}
+
+	#featured > li > img {
+		width: 100%;
+		height: auto;
+	}
+
+	#featured .featured-content {
+		position: absolute;
+		margin: 15px;
+		bottom: 30px;
+		padding: 0px 35px;
+		opacity: 1;
+		color: #000;
+		z-index: 6;
+	}
+
+	.articles {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+
+	#featured .featured-content .title {
+		font-weight: bold;
+		margin-bottom: 0px;
+	}
+
+	#featured .featured-content .author {
+		margin: 2.5px 0px 10px;
+	}
+
+	#featured .featured-content .button {
+		text-align: center;
+	}
+
+	/* For Sidebar */
+	.sidebar {
+		margin-top: 15px;
+		padding: 10px;
+		border: 1px solid #000;
+	}
+
+	.sidebar .header {
+		text-align: center;
+		font-weight: bold;
+		margin-top: 5px;
+	}
+
+	.sidebar .article-divider {
+		border-bottom: 1px solid #666;
+	}
+
+	#popular-articles .article-preview {
+		margin-top: 15px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+
+	#popular-articles .article-preview > img {
+		width: 50%;
+		height: auto;
+		margin-right: 10px;
+	}
+
+	#popular-articles .article-preview > h3 {
+		margin-top: 5px;
+		flex-grow: 1;
+		flex-basis: 0;
+	}
+
+	#popular-articles .article-preview > h5 {
+		flex-basis: 100%;
+		margin-top: 5px;
+	}
+
+	/* ---- REMOVE WHEN NOT IN DEVELOPMENT ANYMORE ---- */
+	.sidebar .placeholder {
+		width: 60px;
+		height: 60px;
+	}
+
+	#facebook {
+		background-color: blue;
+	}
+
+	#twitter {
+		background-color: cyan;
+	}
+
+	#instagram {
+		background-color: brown;
+	}
+
+	#askfm {
+		background-color: darkblue;
+	}
+	/* ----- UP UNTIL HERE --------- */
+
+	#social-media .links {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	/* change to img when placeholders are not applicable anymore */
+	#social-media .placeholder {
+		margin: 5px;
+	}
+
 	
 }
 
 /* ### START OF DESKOP LAYOUT ### */
 @media (min-width: 992px) {
-
+	.main-header {
+		background-color: green;
+	}
 }
 
 /* ### START OF LARGE DESKTOP LAYOUT ### */
 @media (min-width: 1200px) {
-
+	.main-header {
+		background-color: blue;
+	}
 }
