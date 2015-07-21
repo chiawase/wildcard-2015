@@ -75,7 +75,7 @@
 			<div class="content">
 				<div class="row">
 					<div class="col-xs-12">
-						<div class="featured">
+						<div class="featured visible-xs-block">
 							<div class="btn-group">
 								<a href="featured.php" type="button" class="btn btn-default btn-lg">Featured</a>
 								<button type="button" class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -112,7 +112,7 @@
 							</div><!-- /.article-card -->
 						</div>
 
-						<div class="latest">
+						<div class="latest visible-xs-block">
 							<div class="btn-group">
 								<a href="latest.php" type="button" class="btn btn-default btn-lg">Latest</a>
 								<button type="button" class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -148,39 +148,41 @@
 								<div class="clearfix"></div>
 							</div><!-- /.article-card -->
 						</div>
-						<!-- <ul id="featured">
-							<li data-thumb="img/thumbs/test-main-01.jpg">
-								<a href="article.php"><img src="img/test-main-01.jpg"></a>
-								<div class="featured-content">
-									<h2 class="title"><a href="article.php">Article Title #1</a></h2>
-									<h5 class="author">by <a href="#">Author Name</a></h5>
-									<p>This is a short excerpt of the featured article. This should be a maximum of two lines/sentences only.</p>
-									<p class="button"><a class="btn btn-info btn-sm" role="button" href="article.php">Read More</a></p>
-								</div>
-							</li>
-							<li data-thumb="img/thumbs/test-main-02.jpg">
-								<img src="img/test-main-02.jpg">
-								<div class="featured-content">
-									<h2 class="title">Article Title #2</h2>
-									<h5 class="author">by <a href="#">Author Name</a></h5>
-									<p>This is a short excerpt of the featured article. This should be a maximum of two lines/sentences only.</p>
-									<p class="button"><a class="btn btn-info btn-sm" role="button" href="#">Read More</a></p>
-								</div>
-							</li>
-							<li data-thumb="img/thumbs/test-main-03.jpg">
-								<img src="img/test-main-03.jpg">
-								<div class="featured-content">
-									<h2 class="title">Article Title #3</h2>
-									<h5 class="author">by <a href="#">Author Name</a>, <a href="#">Another Name</a></h5>
-									<p>This is a short excerpt of the featured article. This should be a maximum of two lines/sentences only.</p>
-									<p class="button"><a class="btn btn-info btn-sm" role="button" href="#">Read More</a></p>
-								</div>
-							</li>
-						</ul> -->
 					</div><!-- /.cols -->
+					<div class="hidden-xs featured-slider">
+							<ul id="featured">
+								<li data-thumb="img/thumbs/test-main-01.jpg">
+									<img src="img/test-main-01.jpg">
+									<div class="featured-content">
+										<h2 class="title"><a href="article.php">Article Title #1</a></h2>
+										<h5 class="author">by <a href="#">Author Name</a></h5>
+										<p>This is a short excerpt of the featured article. This should be a maximum of two lines/sentences only.</p>
+										<p class="button"><a class="btn btn-info btn-sm" role="button" href="article.php">Read More</a></p>
+									</div>
+								</li>
+								<li data-thumb="img/thumbs/test-main-02.jpg">
+									<img src="img/test-main-02.jpg">
+									<div class="featured-content">
+										<h2 class="title">Article Title #2</h2>
+										<h5 class="author">by <a href="#">Author Name</a></h5>
+										<p>This is a short excerpt of the featured article. This should be a maximum of two lines/sentences only.</p>
+										<p class="button"><a class="btn btn-info btn-sm" role="button" href="#">Read More</a></p>
+									</div>
+								</li>
+								<li data-thumb="img/thumbs/test-main-03.jpg">
+									<img src="img/test-main-03.jpg">
+									<div class="featured-content">
+										<h2 class="title">Article Title #3</h2>
+										<h5 class="author">by <a href="#">Author Name</a>, <a href="#">Another Name</a></h5>
+										<p>This is a short excerpt of the featured article. This should be a maximum of two lines/sentences only.</p>
+										<p class="button"><a class="btn btn-info btn-sm" role="button" href="#">Read More</a></p>
+									</div>
+								</li>
+							</ul>
+						</div>
 				</div><!-- /.row -->
 
-				<div class="divider">
+				<div class="divider visible-xs-block">
 					<img src="img/wildcard-favicon.png" width="40">
 				</div>
 
@@ -278,7 +280,7 @@
 							</div><!-- /.article-preview -->
 							<div class="article-divider"></div>
 							<div class="article-preview">
-								<a href="article.php"><img src="img/thumbs/test-main-01.jpg"></a>
+								<img src="img/thumbs/test-main-01.jpg">
 								<h3><a href="article.php"><strong>Article Title #1</strong></a></h3>
 								<h5><em><a href="article.php">Two days ago</a></em></h5>
 							</div><!-- /.article-preview -->

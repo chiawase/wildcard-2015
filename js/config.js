@@ -27,15 +27,15 @@ $(function() {
 		$('#featured').lightSlider({
 			item: 1,
 			slideMargin: 0,
-			loop: true,
+			// loop: true,
 			auto: true,
-			pause: 4000,
+			pause: 1000,
 			gallery: true,
 			thumbItem: 3,
 			currentPagerPosition: 'left',
 			vertical: true,
-			verticalHeight: 250,
-			vThumbWidth: 125
+			verticalHeight: 400,
+			vThumbWidth: 210
 		});
 		if ($('nav').hasClass('navbar-fixed-top'))
 			$('nav').removeClass('navbar-fixed-top');
