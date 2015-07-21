@@ -59,9 +59,10 @@
 			      	<div class="input-group">
 			      		<input type="text" class="form-control" placeholder="Search">
 				      	<span class="input-group-btn">
-					      	<button type="submit" class="btn btn-default">
+					      	<!-- Link for now until Search function is implemented -->
+					      	<a href="search.php" type="submit" class="btn btn-default">
 					      		<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-					      	</button>
+					      	</a>
 				      	</span>
 			      	</div><!-- /.input-group -->
 			      </div><!-- /.navbar-form -->
@@ -93,16 +94,16 @@
 								<div class="article-tags pull-left">
 									<button type="button" class="btn btn-info article-tag">I.T.</button>
 								</div>
-								<button type="button" class="btn btn-link pull-right">Read More &raquo;</button>
+								<a href="#" type="button" class="btn btn-link pull-right">Read More &raquo;</a>
 							</div><!-- /.article-footer -->
 							<div class="clearfix"></div>
 						</div><!-- /.article-card -->
 
 						<div class="article-card">
 							<div class="article-header">
-								<a href="#" class="article-timestamp">20 June 2015, 9:31 AM</a>
-								<img src="img/test-main-01.jpg">
-								<h2 class="title"><a href="#">Featured Article #1</a></h2>
+								<a href="article.php" class="article-timestamp">20 June 2015, 9:31 AM</a>
+								<a href="article.php"><img src="img/test-main-01.jpg"></a>
+								<h2 class="title"><a href="article.php">Featured Article #1</a></h2>
 							</div><!-- /.article-header -->
 							<div class="article-body">
 								<h5 class="author">By Author Name</h5>
@@ -114,7 +115,7 @@
 								<div class="article-tags pull-left">
 									<button type="button" class="btn btn-warning article-tag">I.T. Out</button>
 								</div>
-								<button type="button" class="btn btn-link pull-right">Read More &raquo;</button>
+								<a href="article.php" type="button" class="btn btn-link pull-right">Read More &raquo;</a>
 							</div><!-- /.article-footer -->
 							<div class="clearfix"></div>
 						</div><!-- /.article-card -->

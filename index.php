@@ -105,7 +105,7 @@
 									<div class="article-tags pull-left">
 										<button type="button" class="btn btn-info article-tag">I.T.</button>
 									</div>
-									<button type="button" class="btn btn-link pull-right">Read More &raquo;</button>
+									<a href="#" type="button" class="btn btn-link pull-right">Read More &raquo;</a>
 								</div><!-- /.article-footer -->
 								<div class="clearfix"></div>
 							</div><!-- /.article-card -->
@@ -142,19 +142,19 @@
 									<div class="article-tags pull-left">
 										<button type="button" class="btn btn-primary article-tag">CompSAt</button>
 									</div>
-									<button type="button" class="btn btn-link pull-right">Read More &raquo;</button>
+									<a href="#" type="button" class="btn btn-link pull-right">Read More &raquo;</a>
 								</div><!-- /.article-footer -->
 								<div class="clearfix"></div>
 							</div><!-- /.article-card -->
 						</div>
 						<!-- <ul id="featured">
 							<li data-thumb="img/thumbs/test-main-01.jpg">
-								<img src="img/test-main-01.jpg">
+								<a href="article.php"><img src="img/test-main-01.jpg"></a>
 								<div class="featured-content">
-									<h2 class="title">Article Title #1</h2>
+									<h2 class="title"><a href="article.php">Article Title #1</a></h2>
 									<h5 class="author">by <a href="#">Author Name</a></h5>
 									<p>This is a short excerpt of the featured article. This should be a maximum of two lines/sentences only.</p>
-									<p class="button"><a class="btn btn-info btn-sm" role="button" href="#">Read More</a></p>
+									<p class="button"><a class="btn btn-info btn-sm" role="button" href="article.php">Read More</a></p>
 								</div>
 							</li>
 							<li data-thumb="img/thumbs/test-main-02.jpg">
@@ -205,7 +205,7 @@
 									<div class="article-tags pull-left">
 										<button type="button" class="btn btn-primary article-tag">CompSAt</button>
 									</div>
-									<button type="button" class="btn btn-link pull-right">Read More &raquo;</button>
+									<a href="#" type="button" class="btn btn-link pull-right">Read More &raquo;</a>
 								</div><!-- /.article-footer -->
 							<div class="clearfix"></div>
 						</div><!-- /.article-card -->
@@ -229,16 +229,16 @@
 									<div class="article-tags pull-left">
 										<button type="button" class="btn btn-danger article-tag">Video Games</button>
 									</div>
-									<button type="button" class="btn btn-link pull-right">Read More &raquo;</button>
+									<a href="#" type="button" class="btn btn-link pull-right">Read More &raquo;</a>
 								</div><!-- /.article-footer -->
 							<div class="clearfix"></div>
 						</div><!-- /.article-card -->
 
 						<div class="article-card">
 							<div class="article-header">
-								<a href="#" class="article-timestamp">26 June 2015, 3:25 PM</a>
-								<img src="img/test-main-01.jpg">
-								<h2 class="title"><a href="#">Article Title #1</a></h2>
+								<a href="article.php" class="article-timestamp">26 June 2015, 3:25 PM</a>
+								<a href="article.php"><img src="img/test-main-01.jpg"></a>
+								<h2 class="title"><a href="article.php">Article Title #1</a></h2>
 							</div><!-- /.article-header -->
 							<div class="article-body">
 								<h5 class="author">By <a href="#">Author Name</a></h5>
@@ -253,7 +253,7 @@
 									<div class="article-tags pull-left">
 										<button type="button" class="btn btn-info article-tag">I.T.</button>
 									</div>
-									<button type="button" class="btn btn-link pull-right">Read More &raquo;</button>
+									<a href="article.php" type="button" class="btn btn-link pull-right">Read More &raquo;</a>
 								</div><!-- /.article-footer -->
 							<div class="clearfix"></div>
 						</div><!-- /.article-card -->
@@ -274,9 +274,9 @@
 							</div><!-- /.article-preview -->
 							<div class="article-divider"></div>
 							<div class="article-preview">
-								<img src="img/thumbs/test-main-01.jpg">
-								<h3><a href="#"><strong>Article Title #1</strong></a></h3>
-								<h5><em>Two days ago</em></h5>
+								<a href="article.php"><img src="img/thumbs/test-main-01.jpg"></a>
+								<h3><a href="article.php"><strong>Article Title #1</strong></a></h3>
+								<h5><em><a href="article.php">Two days ago</a></em></h5>
 							</div><!-- /.article-preview -->
 						</div><!-- /.sidebar -->
 						<div class="sidebar" id="social-media">

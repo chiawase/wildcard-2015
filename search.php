@@ -59,9 +59,10 @@
 			      	<div class="input-group">
 			      		<input type="text" class="form-control" placeholder="Search">
 				      	<span class="input-group-btn">
-					      	<button type="submit" class="btn btn-default">
+					      	<!-- Link for now until Search function is implemented -->
+					      	<a href="search.php" type="submit" class="btn btn-default">
 					      		<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-					      	</button>
+					      	</a>
 				      	</span>
 			      	</div><!-- /.input-group -->
 			      </div><!-- /.navbar-form -->
@@ -73,16 +74,16 @@
 				<div class="row">
 					<div class="col-xs-12">
 						<h1 class="title">Search</h1>
-						<h3 class="query">Test Search</h3>
+						<h3 class="query">CompSAt</h3>
 
 						<div class="article-card">
 							<div class="article-header">
 								<a href="#" class="article-timestamp">26 June 2015, 4:41 PM</a>
-								<img src="img/test-main-01.jpg">
+								<img src="img/test-main-03.jpg">
 								<h2 class="title"><a href="#">Latest Article #1</a></h2>
 							</div><!-- /.article-header -->
 							<div class="article-body">
-								<h5 class="author">By Author Name, Another Name</h5>
+								<h5 class="author">By <a href="#">Author Name</a>, <a href="#">Another Name</a></h5>
 								<p>
 									This is just a preview of what is in the article. It may contain the excerpt from the actual article.
 								</p>
@@ -91,11 +92,11 @@
 								</p>
 							</div><!-- /.article-body -->
 							<div class="article-footer">
-								<div class="article-tags pull-left">
-									<button type="button" class="btn btn-info article-tag">I.T.</button>
-								</div>
-								<button type="button" class="btn btn-link pull-right">Read More &raquo;</button>
-							</div><!-- /.article-footer -->
+									<div class="article-tags pull-left">
+										<button type="button" class="btn btn-primary article-tag">CompSAt</button>
+									</div>
+									<a href="#" type="button" class="btn btn-link pull-right">Read More &raquo;</a>
+								</div><!-- /.article-footer -->
 							<div class="clearfix"></div>
 						</div><!-- /.article-card -->
 
