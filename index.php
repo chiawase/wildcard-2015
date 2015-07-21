@@ -19,7 +19,7 @@
 				<header class="hidden-xs main-header">
 					<img src="img/wildcard-header.png">
 				</header>
-				<nav class="navbar navbar-default">
+				<nav class="navbar navbar-default navbar-fixed-top">
 			    <!-- Brand and toggle get grouped for better mobile display -->
 			    <div class="navbar-header">
 			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#wildcard-nav" aria-expanded="false">
@@ -93,7 +93,7 @@
 									<h2 class="title"><a href="article.php">Featured Article</a></h2>
 								</div><!-- /.article-header -->
 								<div class="article-body">
-									<h5 class="author">By Author Name, Another Name</h5>
+									<h5 class="author">By <a href="#">Author Name</a>, <a href="#">Another Name</a></h5>
 									<p>
 										This is just a preview of what is in the article. It may contain the excerpt from the actual article.
 									</p>
@@ -130,7 +130,7 @@
 									<h2 class="title"><a href="#">Latest Article</a></h2>
 								</div><!-- /.article-header -->
 								<div class="article-body">
-									<h5 class="author">By Author Name, Another Name</h5>
+									<h5 class="author">By <a href="#">Author Name</a>, <a href="#">Another Name</a></h5>
 									<p>
 										This is just a preview of what is in the article. It may contain the excerpt from the actual article.
 									</p>
@@ -152,7 +152,7 @@
 								<img src="img/test-main-01.jpg">
 								<div class="featured-content">
 									<h2 class="title">Article Title #1</h2>
-									<h5 class="author">by Author Name</h5>
+									<h5 class="author">by <a href="#">Author Name</a></h5>
 									<p>This is a short excerpt of the featured article. This should be a maximum of two lines/sentences only.</p>
 									<p class="button"><a class="btn btn-info btn-sm" role="button" href="#">Read More</a></p>
 								</div>
@@ -161,7 +161,7 @@
 								<img src="img/test-main-02.jpg">
 								<div class="featured-content">
 									<h2 class="title">Article Title #2</h2>
-									<h5 class="author">by Author Name</h5>
+									<h5 class="author">by <a href="#">Author Name</a></h5>
 									<p>This is a short excerpt of the featured article. This should be a maximum of two lines/sentences only.</p>
 									<p class="button"><a class="btn btn-info btn-sm" role="button" href="#">Read More</a></p>
 								</div>
@@ -170,7 +170,7 @@
 								<img src="img/test-main-03.jpg">
 								<div class="featured-content">
 									<h2 class="title">Article Title #3</h2>
-									<h5 class="author">by Author Name, Another Name</h5>
+									<h5 class="author">by <a href="#">Author Name</a>, <a href="#">Another Name</a></h5>
 									<p>This is a short excerpt of the featured article. This should be a maximum of two lines/sentences only.</p>
 									<p class="button"><a class="btn btn-info btn-sm" role="button" href="#">Read More</a></p>
 								</div>
@@ -193,7 +193,7 @@
 								<h2 class="title"><a href="#">Article Title #3</a></h2>
 							</div><!-- /.article-header -->
 							<div class="article-body">
-								<h5 class="author">By Author Name, Another Name</h5>
+								<h5 class="author">By <a href="#">Author Name</a>, <a href="#">Another Name</a></h5>
 								<p>
 									This is just a preview of what is in the article. It may contain the excerpt from the actual article.
 								</p>
@@ -217,7 +217,7 @@
 								<h2 class="title"><a href="#">Article Title #2</a></h2>
 							</div><!-- /.article-header -->
 							<div class="article-body">
-								<h5 class="author">By Author Name</h5>
+								<h5 class="author">By <a href="#">Author Name</a></h5>
 								<p>
 									This is just a preview of what is in the article. It may contain the excerpt from the actual article.
 								</p>
@@ -241,7 +241,7 @@
 								<h2 class="title"><a href="#">Article Title #1</a></h2>
 							</div><!-- /.article-header -->
 							<div class="article-body">
-								<h5 class="author">By Author Name</h5>
+								<h5 class="author">By <a href="#">Author Name</a></h5>
 								<p>
 									This is just a preview of what is in the article. It may contain the excerpt from the actual article.
 								</p>

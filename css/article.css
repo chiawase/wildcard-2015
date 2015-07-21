@@ -5,3 +5,39 @@
 .article-header .title {
 	margin-top: 20px;
 }
+
+.article-body > p {
+	text-indent: 25px;
+	text-align: justify;
+}
+
+.article-body > img {
+	width: 100%;
+	margin: 10px 0px;
+}
+
+.article-body .caption {
+	text-align: center;
+	font-size: 90%;
+	color: #666;
+	margin-bottom: 15px;
+}
+
+.related {
+	margin-top: 20px;
+}
+
+/* TEMPORARY */
+.placeholder {
+	background-color: #888;
+	width: 40px;
+	height: 40px;
+	margin: 0px 5px;
+}
+
+.share-buttons {
+	display: flex;
+	justify-content: center;
+	align-content: flex-start;
+	margin: 5px 0px 10px;
+}

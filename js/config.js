@@ -1,4 +1,11 @@
 $(function() {
+	// responsive scrolling
+	var $body = $('body'),
+		$navtop = $('nav'),
+		offset = $navtop.outerHeight();
+
+	$body.css('padding-top', offset + 20);
+
 	if ($(window).width() < 768) {
 		// if on mobile device / super small screen
 		// $('#featured').lightSlider({
@@ -12,6 +19,7 @@ $(function() {
 		// 	thumbItem: 3,
 		// 	currentPagerPosition: 'left'
 		// });
+		
 	} else {
 		// if on small device ++
 		$('#featured').lightSlider({
