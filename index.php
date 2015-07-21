@@ -88,8 +88,8 @@
 
 							<div class="article-card">
 								<div class="article-header">
-									<a href="#" class="article-timestamp">26 June 2015, 4:41 PM</a>
-									<img src="img/test-main-01.jpg">
+									<a href="article.php" class="article-timestamp">26 June 2015, 4:41 PM</a>
+									<a href="article.php"><img src="img/test-main-01.jpg"></a>
 									<h2 class="title"><a href="article.php">Featured Article</a></h2>
 								</div><!-- /.article-header -->
 								<div class="article-body">
@@ -105,7 +105,7 @@
 									<div class="article-tags pull-left">
 										<button type="button" class="btn btn-info article-tag">I.T.</button>
 									</div>
-									<a href="#" type="button" class="btn btn-link pull-right">Read More &raquo;</a>
+									<a href="article.php" type="button" class="btn btn-link pull-right">Read More &raquo;</a>
 								</div><!-- /.article-footer -->
 								<div class="clearfix"></div>
 							</div><!-- /.article-card -->
