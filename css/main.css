@@ -162,7 +162,7 @@ a:hover {
 		width: 100%;
 	}
 
-	.main-header > img {
+	.main-header > a > img {
 		margin: 10px 15%;
 		width: 500px;
 	}

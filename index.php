@@ -17,9 +17,9 @@
 		<div class="container">
 			<div class="row">
 				<header class="hidden-xs main-header">
-					<img src="img/wildcard-header.png">
+					<a href="index.php"><img src="img/wildcard-header.png"></a>
 				</header>
-				<nav class="navbar navbar-default navbar-fixed-top">
+				<nav class="navbar navbar-default">
 			    <!-- Brand and toggle get grouped for better mobile display -->
 			    <div class="navbar-header">
 			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#wildcard-nav" aria-expanded="false">
