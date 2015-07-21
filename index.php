@@ -64,6 +64,7 @@
 					      	<a href="search.php" type="submit" class="btn btn-default">
 					      		<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
 					      	</a>
+
 				      	</span>
 			      	</div><!-- /.input-group -->
 			      </div><!-- /.navbar-form -->
@@ -206,6 +207,7 @@
 										<button type="button" class="btn btn-primary article-tag">CompSAt</button>
 									</div>
 									<a href="#" type="button" class="btn btn-link pull-right">Read More &raquo;</a>
+
 								</div><!-- /.article-footer -->
 							<div class="clearfix"></div>
 						</div><!-- /.article-card -->

@@ -91,11 +91,11 @@
 								</p>
 							</div><!-- /.article-body -->
 							<div class="article-footer">
-									<div class="article-tags pull-left">
-										<button type="button" class="btn btn-primary article-tag">CompSAt</button>
-									</div>
-									<a href="#" type="button" class="btn btn-link pull-right">Read More &raquo;</a>
-								</div><!-- /.article-footer -->
+								<div class="article-tags pull-left">
+									<button type="button" class="btn btn-primary article-tag">CompSAt</button>
+								</div>
+								<a href="#" type="button" class="btn btn-link pull-right">Read More &raquo;</a>
+							</div><!-- /.article-footer -->
 							<div class="clearfix"></div>
 						</div><!-- /.article-card -->
 
