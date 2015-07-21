@@ -78,11 +78,11 @@
 						<div class="article-card">
 							<div class="article-header">
 								<a href="#" class="article-timestamp">26 June 2015, 4:41 PM</a>
-								<img src="img/test-main-01.jpg">
+								<img src="img/test-main-02.jpg">
 								<h2 class="title"><a href="#">Featured Article #2</a></h2>
 							</div><!-- /.article-header -->
 							<div class="article-body">
-								<h5 class="author">By Author Name, Another Name</h5>
+								<h5 class="author">By <a href="#">Author Name</a>, <a href="#">Another Name</a></h5>
 								<p>
 									This is just a preview of what is in the article. It may contain the excerpt from the actual article.
 								</p>
@@ -106,7 +106,7 @@
 								<h2 class="title"><a href="article.php">Featured Article #1</a></h2>
 							</div><!-- /.article-header -->
 							<div class="article-body">
-								<h5 class="author">By Author Name</h5>
+								<h5 class="author">By <a href="#">Author Name</a></h5>
 								<p>
 									This is just a preview of what is in the article. It may contain the excerpt from the actual article.
 								</p>
@@ -119,6 +119,7 @@
 							</div><!-- /.article-footer -->
 							<div class="clearfix"></div>
 						</div><!-- /.article-card -->
+
 					</div><!-- /.cols -->
 				</div><!-- /.row .articles -->
 			</div><!-- /.content -->

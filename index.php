@@ -259,7 +259,9 @@
 								</div><!-- /.article-footer -->
 							<div class="clearfix"></div>
 						</div><!-- /.article-card -->
+
 					</div><!-- /.cols -->
+
 					<div class="hidden-xs col-sm-4">
 						<div class="sidebar" id="popular-articles">
 							<h4 class="header">Popular Articles</h4>

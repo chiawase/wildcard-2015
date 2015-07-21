@@ -110,7 +110,7 @@ a:hover {
 	color: #333;
 }
 
-.article-card .article-header > img {
+.article-card .article-header img {
 	margin: 0 auto;
 	width: 100%;
 	border-top-left-radius: 10px;

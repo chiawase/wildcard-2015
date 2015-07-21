@@ -76,7 +76,7 @@
 					<div class="col-xs-12">
 						<div class="article-header">
 							<img src="img/test-main-01.jpg">
-							<h2 class="page-header title"><a href="article.php">Latest Article #1</a></h2>
+							<h2 class="page-header title"><a href="article.php">Featured Article #1</a></h2>
 							<h6 class="author">By <a href="#">Author Name</a>, <a href="#">Another Name</a> | <a href="article.php" class="article-timestamp">26 June 2015, 4:41 PM</a></h6>
 							<div class="share-buttons">
 								<a href="#" class="placeholder square"></a>
@@ -150,7 +150,7 @@
 									<h2 class="title"><a href="#">Article Title #3</a></h2>
 								</div><!-- /.article-header -->
 								<div class="article-body">
-									<h5 class="author">By Author Name, Another Name</h5>
+									<h5 class="author">By <a href="#">Author Name</a>, <a href="#">Another Name</a></h5>
 									<p>
 										This is just a preview of what is in the article. It may contain the excerpt from the actual article.
 									</p>
