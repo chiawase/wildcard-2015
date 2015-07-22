@@ -1,6 +1,7 @@
 /*Main CSS for Wildcard 2015 Theme */
-/* Wildcard Blue : #00A99E */
-/* Wildcard Green : #8DC540, #04A89D */
+/* Wildcard Blue : #2BAADE */
+/* Wildcard Blue Green : #00A99E */
+/* Wildcard Green : #8DC540 */
 
 @import url(http://fonts.googleapis.com/css?family=Asap:400,700);
 
@@ -14,7 +15,7 @@ body {
 	width: 100%;
 	overflow-x: hidden;
 	overflow-y: auto;
-	background-color: #ddd;
+	/*background-color: #ddd;*/
 	font-family: Arial, sans-serif;
 	display: flex;
 	min-height: 100vh;
@@ -34,12 +35,20 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
 }
 
+.lSAction > a {
+	z-index: 999;
+}
+
+.dropdown-menu > li > a {
+	z-index: 9999;
+}
+
 .container {
 	flex: 1;
 }
 
 a {
-	color: #04A89D;
+	/*color: #04A89D;*/
 }
 
 a:hover {
@@ -238,7 +247,7 @@ a:hover {
 	.sidebar {
 		margin-top: 15px;
 		padding: 10px;
-		background-color: #eee;
+		background-color: #ddd;
 		box-shadow: 0px 5px 2.5px #aaa;
 	}
 
@@ -316,7 +325,9 @@ a:hover {
 		width: 80%;
 		margin: 0 auto;
 	}
-4
+
+	
+
 }
 
 /* ### START OF DESKOP LAYOUT ### */

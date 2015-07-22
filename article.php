@@ -73,7 +73,8 @@
 
 			<div class="content">
 				<div class="row">
-					<div class="col-xs-12">
+					<div class="col-sm-1 hidden-xs"></div>
+					<div class="col-xs-12 col-sm-10">
 						<div class="article-header">
 							<img src="img/test-main-01.jpg">
 							<h2 class="page-header title"><a href="article.php">Featured Article #1</a></h2>
@@ -140,8 +141,8 @@
 						</div><!-- /.article-footer -->
 						<div class="clearfix"></div>
 
+						<h2 class="related-header">Related Articles</h2>
 						<div class="related">
-							<h2>Related Articles</h2>
 
 							<div class="article-card">
 								<div class="article-header">
@@ -162,13 +163,63 @@
 										<div class="article-tags pull-left">
 											<button type="button" class="btn btn-primary article-tag">CompSAt</button>
 										</div>
-										<button type="button" class="btn btn-link pull-right">Read More &raquo;</button>
+										<a href="#" type="button" class="btn btn-link pull-right">Read More &raquo;</a>
+
+									</div><!-- /.article-footer -->
+								<div class="clearfix"></div>
+							</div><!-- /.article-card -->
+
+							<div class="article-card hidden-xs">
+								<div class="article-header">
+									<a href="#" class="article-timestamp">26 June 2015, 4:00 PM</a>
+									<img src="img/test-main-02.jpg">
+									<h2 class="title"><a href="#">Article Title #2</a></h2>
+								</div><!-- /.article-header -->
+								<div class="article-body">
+									<h5 class="author">By <a href="#">Author Name</a></h5>
+									<p>
+										This is just a preview of what is in the article. It may contain the excerpt from the actual article.
+									</p>
+									<p>
+										It may also contain another paragraph, to give users a taste of what is in the article. I am just blabbering right now.
+									</p>
+								</div><!-- /.article-body -->
+								<div class="article-footer">
+										<div class="article-tags pull-left">
+											<button type="button" class="btn btn-danger article-tag">Video Games</button>
+										</div>
+										<a href="#" type="button" class="btn btn-link pull-right">Read More &raquo;</a>
+									</div><!-- /.article-footer -->
+								<div class="clearfix"></div>
+							</div><!-- /.article-card -->
+
+							<div class="article-card hidden-xs">
+								<div class="article-header">
+									<a href="article.php" class="article-timestamp">26 June 2015, 3:25 PM</a>
+									<a href="article.php"><img src="img/test-main-01.jpg"></a>
+									<h2 class="title"><a href="article.php">Article Title #1</a></h2>
+								</div><!-- /.article-header -->
+								<div class="article-body">
+									<h5 class="author">By <a href="#">Author Name</a></h5>
+									<p>
+										This is just a preview of what is in the article. It may contain the excerpt from the actual article.
+									</p>
+									<p>
+										It may also contain another paragraph, to give users a taste of what is in the article. I am just blabbering right now.
+									</p>
+								</div><!-- /.article-body -->
+								<div class="article-footer">
+										<div class="article-tags pull-left">
+											<button type="button" class="btn btn-info article-tag">I.T.</button>
+										</div>
+										<a href="article.php" type="button" class="btn btn-link pull-right">Read More &raquo;</a>
 									</div><!-- /.article-footer -->
 								<div class="clearfix"></div>
 							</div><!-- /.article-card -->
 
 						</div>
 					</div><!-- /.cols -->
+					<div class="col-sm-1 hidden-xs"></div>
 				</div><!-- /.row -->
 			</div><!-- /.content -->
 

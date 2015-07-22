@@ -23,7 +23,7 @@
 	margin-bottom: 15px;
 }
 
-.related {
+.related-header {
 	margin-top: 20px;
 }
 
@@ -40,4 +40,37 @@
 	justify-content: center;
 	align-content: flex-start;
 	margin: 5px 0px 10px;
+}
+
+/* ### START OF SMALL DEVICES LAYOUT ### */
+@media (min-width: 768px) {
+	.share-buttons {
+		justify-content: flex-start;
+		margin-bottom: 20px;
+	}
+
+	.article-body {
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+
+	.article-body > img {
+		width: 80%;
+		margin: 20px auto;
+	}
+
+	.article-body .caption {
+		margin: 0px auto 10px;
+	}
+
+	.related {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.related .article-card {
+		margin: 25px 10px;
+	}
 }
