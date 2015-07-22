@@ -288,10 +288,10 @@
 						<div class="sidebar" id="social-media">
 							<h4 class="header">Connect with CompSAt</h4>
 							<div class="links">
-								<a href="#"><div id="facebook" class="placeholder img-circle"></div></a>
-								<a href="#"><div id="twitter" class="placeholder img-circle"></div></a>
-								<a href="#"><div id="instagram" class="placeholder img-circle"></div></a>
-								<a href="#"><div id="askfm" class="placeholder img-circle"></div></a>
+								<a href="http://facebook.com/CompSAt"><img src="img/contact-fb.png"></a>
+								<a href="http://twitter.com/CompSAt"><img src="img/contact-twitter.png"></a>
+								<a href="http://instagram.com/compsatgear"><img src="img/contact-ig.png"></a>
+								<a href="http://ask.fm/CompSAtGear"><img src="img/contact-askfm.png"></a>
 							</div>
 						</div><!-- /.sidebar -->
 					</div><!-- /.cols -->
