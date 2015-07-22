@@ -1,0 +1,13 @@
+/* ### START OF SMALL DEVICES LAYOUT ### */
+@media (min-width: 768px) {
+	.article-card {
+		/*width: 50%;*/
+		margin: 25px 20px;
+	}
+
+	.search {
+		display: flex;
+		justify-content: center;
+		align-content: flex-start;
+	}
+}
