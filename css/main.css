@@ -1,3 +1,11 @@
+/*
+Theme Name: Wildcard 2015
+Author: Chi Señires
+Description: The redesigned layout of CompSAt's official blog, Wildcard.
+Version: 1.0
+Tags: wildcard, CompSAt, flexbox, bootstrap, blog
+*/
+
 /*Main CSS for Wildcard 2015 Theme */
 /* Wildcard Blue : #2BAADE */
 /* Wildcard Blue Green : #00A99E */
@@ -174,6 +182,10 @@ a:hover {
 	-webkit-flex-direction: column;
 	    -ms-flex-direction: column;
 	        flex-direction: column;
+}
+
+.single #nav-above {
+    display:none;
 }
 
 /* ### START OF SMALL DEVICES LAYOUT ### */
