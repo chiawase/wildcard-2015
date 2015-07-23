@@ -6,8 +6,14 @@
 	}
 
 	.search {
+		display: -webkit-flex;
+		display: -ms-flexbox;
 		display: flex;
-		justify-content: center;
-		align-content: flex-start;
+		-webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-align-content: flex-start;
+		    -ms-flex-line-pack: start;
+		        align-content: flex-start;
 	}
 }
